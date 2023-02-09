@@ -1,0 +1,214 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+    
+    height: 100vh;
+    width: 100vw;
+ 
+}
+#submit{
+  
+    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
+    padding-bottom: 2px;
+    margin-bottom: 5px;
+  
+}
+#title{
+  background: linear-gradient(to right, #8360c3, #2ebf91);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+}
+.login_container{
+    position: relative;
+    max-width: 700px;
+    width: 100%;
+    height: auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(87, 75, 75);
+    overflow: hidden;
+    margin-top: 3%;
+   
+}
+
+.login_container .forms{
+    display: flex;
+    align-items: center;
+    height: 450px;
+    background: #121212;
+    width: 200%;
+    transition: height 0.2s ease;
+}
+
+
+.login_container .in_form{
+    width: 50%;
+    padding: 30px;
+    background-color: #121212;
+    transition: margin-left 0.18s ease;
+}
+
+
+.login_container .in_form .log_title{
+    position: relative;
+    font-size: 27px;
+    font-weight: 600;
+}
+
+
+.in_form .log_input-field{
+    position: relative;
+    height: 30px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.log_input-field input{
+    font-size: 19px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 0 39px;
+    border: none;
+    outline: none;
+    background: #121212;
+    color: white;
+    
+    border-bottom: 2px solid #ccc;
+    border-top: 2px solid transparent;
+    transition: all 0.2s ease;
+}
+
+.log_input-field input:is(:focus, :valid){
+    border-bottom-color: #4070f4;
+}
+
+.log_input-field i{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+    font-size: 23px;
+    transition: all 0.2s ease;
+}
+
+.log_input-field input:is(:focus, :valid) ~ i{
+    color: #4070f4;
+}
+
+.log_input-field i.icon{
+    left: 0;
+}
+.log_input-field i.showHidePw{
+    right: 0;
+    cursor: pointer;
+    padding: 10px;
+}
+.log_input-field i.cshowHidePw{
+    right: 0;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.in_form .checkbox-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.checkbox-text .checkbox-content{
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-content input{
+    margin-right: 10px;
+    accent-color: #4070f4;
+}
+
+.in_form .text{
+    color: #333;
+    font-size: 14px;
+}
+
+.in_form a.text{
+    color: #4070f4;
+    text-decoration: none;
+}
+.in_form a:hover{
+    text-decoration: underline;
+}
+
+.in_form .log_button{
+    margin-top: 20px;
+}
+
+.in_form .log_button input{
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    background-color: #000000;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.log_button input:hover{
+    background-color: #383838;
+}
+.show_log_data{
+    background-color: #0838bb;
+    width: 40%;
+    height: 10%;
+}
+.show-data-for-log{
+    background-color:aliceblue;
+    margin-top: 3%;
+    border: 2px solid black;
+}
+#enters{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+
+}
+.table-bordered{
+  background: #121212;
+  width: 700px;
+  color: white;
+
+}
+th{
+  	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+#dob{
+  color: white;
+}
+#text{
+ color: white; 
+ font-size: 17px;
+}
+#table-design{
+  border-radius: 10px;
+  padding: 0px;
+  margin: 6px;
+  
+  
+}
